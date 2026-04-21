@@ -1,12 +1,12 @@
-# Application Engine
+# Make Me! Application Engine
 
-**Application Engine** is an AI-powered workflow system designed to solve a specific problem: most job applicants are filtered out before a human ever sees their resume.
+**Make Me! Application Engine** is an AI-powered workflow system designed to solve a specific problem: most job applicants are filtered out before a human ever sees their resume.
 
-Built by a Senior Technical Program Manager, this tool analyzes job postings against a candidate baseline, identifies keyword and positioning gaps, generates tailored resumes and cover letters, and tracks pipeline performance — all in a single, self-contained browser application.
+Part of the **Make Me!** career tools suite — built by a Senior Technical Program Manager to solve real job search problems with real AI integration.
 
 No installation. No backend. No friction.
 
-![Application Engine](Screenshot.png)
+![Make Me! Application Engine](Screenshot.png)
 
 ---
 
@@ -130,7 +130,7 @@ Each task uses a dedicated prompt with explicit output format instructions — r
 ## Setup
 
 1. Clone or download this repo
-2. Open `TPM_Application_Engine.html` in any modern browser — Chrome recommended
+2. Open `Application_Engine.html` in any modern browser — Chrome recommended
 3. Get an [Anthropic API key](https://console.anthropic.com/)
 4. Paste your API key in the header field — the dot turns green when valid
 5. Paste your base resume into the `RESUME` constant near line 360
@@ -185,14 +185,12 @@ Replace localStorage with IndexedDB or a lightweight backend for cross-session h
 
 ---
 
-## Part of the Career Tools Suite
-
-This tool is **Engine 2** in a two-engine career tools suite:
+## Part of the Make Me! Suite
 
 | Engine | Tool | Purpose |
 |--------|------|---------|
-| Engine 1 | **[Resume Positioning Engine](https://github.com/Jon-P-Madden/resume-positioning-engine)** | Build a strategically positioned resume from scratch |
-| Engine 2 | **Application Engine** | Analyze job postings, tailor existing resumes, track applications |
+| Engine 1 | **[Make Me! Resume Positioning Engine](https://github.com/Jon-P-Madden/resume-positioning-engine)** | Build a strategically positioned resume from scratch |
+| Engine 2 | **Make Me! Application Engine** | Analyze job postings, tailor existing resumes, track applications |
 
 Use Engine 1 to build your positioning. Use Engine 2 to apply it.
 
@@ -202,7 +200,7 @@ Use Engine 1 to build your positioning. Use Engine 2 to apply it.
 
 This project is not about building a resume generator.
 
-It demonstrates how a TPM approaches a real problem:
+It demonstrates how a builder approaches a real problem:
 - **Problem diagnosis** — low conversion traced to a specific, fixable cause
 - **Workflow design** — end-to-end system, not a one-off script
 - **Constraint-driven architecture** — deliberate tradeoffs, not accidental limitations
@@ -216,5 +214,5 @@ MIT — use it, fork it, adapt it.
 
 ---
 
-*Built by Jonathan Madden — Senior Technical Program Manager*
+*Built by Jonathan Madden*
 *[LinkedIn](https://linkedin.com/in/jonathan-p-madden) · [github.com/Jon-P-Madden](https://github.com/Jon-P-Madden)*
